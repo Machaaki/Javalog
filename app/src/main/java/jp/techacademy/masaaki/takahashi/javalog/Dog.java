@@ -10,14 +10,7 @@ class Dog extends Animal implements Movable{
         this.name = name;
         this.age = age;
            }
-    //クラス関数
-    public static void introduce(){
 
-    }
-    //メンバ関数
-    public void think(){
-
-    }
     @Override
     public void move(){
         Log.d("javatest", this.name + "(" + this.age + "歳)" + "は全力で走った。");
